@@ -38,7 +38,7 @@ export const RestaurantCard: React.FC<RestaurantCardProps> = ({
         <Text style={tw`text-sm text-gray-600 dark:text-gray-400 mb-2`}>{cuisine}</Text>
         <View style={tw`flex-row justify-between items-center`}>
           <View style={tw`flex-row items-center`}>
-\            <Text style={tw`text-sm text-gray-700 dark:text-gray-300`}>{rating}</Text>
+             <Text style={tw`text-sm text-gray-700 dark:text-gray-300`}>{rating}</Text>
           </View>
           <Text style={tw`text-sm text-gray-700 dark:text-gray-300`}>{deliveryTime}</Text>
         </View>
